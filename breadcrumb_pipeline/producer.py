@@ -33,7 +33,7 @@ current_file_path = "/home/reeya/Data"
 # directory_path = os.path.join(current_file_path, "Data")
 # date = datetime.today().strftime('%Y-%m-%d')
 # file_name = date + str(".json")
-file_name = str('2022-04-30.json')
+file_name = str('2022-05-26.json')
 file_path = os.path.join(current_file_path, file_name)
 with open(file_path, 'r') as f:
     data = json.load(f)
