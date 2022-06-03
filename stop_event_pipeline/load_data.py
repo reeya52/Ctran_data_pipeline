@@ -56,7 +56,7 @@ def return_df():
     # file_name = date + str(".json")
     # file_path = os.path.join(current_file_path, file_name)
 
-    file_path = "/home/reeya/consumed_stop_event/2022-05-26.json"
+    file_path = "/home/reeya/consumed_stop_event/2022-05-28.json"
 
     with open(file_path, 'r') as f:
         data = json.load(f)
